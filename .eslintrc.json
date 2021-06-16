@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "destructuring": true,
+      "spread": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "plugins": ["react-hooks", "jsx-a11y"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error"
+  }
+}
